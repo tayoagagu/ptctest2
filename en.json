@@ -1,0 +1,223 @@
+{
+  "app": {
+    "company_name": "TaskForge Inc.",
+    "product_name": "TaskForge",
+    "tagline": "Plan, track, and ship work",
+    "version": "1.0.0"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "my_work": "My Work",
+    "team": "Team",
+    "reports": "Reports",
+    "settings": "Settings",
+    "billing": "Billing",
+    "help": "Help"
+  },
+  "auth": {
+    "login_title": "Sign in to TaskForge",
+    "signup_title": "Create your TaskForge account",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "remember_me": "Keep me signed in",
+    "forgot_password": "Forgot password?",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "signup": "Sign Up",
+    "oauth_with": "Continue with {provider}",
+    "sso_hint": "Your company may support single sign on"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}",
+    "inbox_zero": "You are all caught up",
+    "view_all": "View all",
+    "due_today": "Due today",
+    "overdue": "Overdue",
+    "recent_activity": "Recent activity"
+  },
+  "projects": {
+    "title": "Projects",
+    "create": "New project",
+    "edit": "Edit project",
+    "archive": "Archive project",
+    "delete": "Delete project",
+    "project_name": "Project name",
+    "project_key": "Project key",
+    "owner": "Owner",
+    "members": "{count} members",
+    "no_projects": "No projects yet",
+    "create_first": "Create your first project to get started",
+    "import": "Import from {source}"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "new_task": "New task",
+    "assignee": "Assignee",
+    "reporter": "Reporter",
+    "status": "Status",
+    "priority": "Priority",
+    "estimate": "Estimate",
+    "due_date": "Due date",
+    "labels": "Labels",
+    "subtasks": "Subtasks",
+    "add_subtask": "Add subtask",
+    "start_task": "Start",
+    "complete_task": "Complete",
+    "reopen_task": "Reopen",
+    "move_task": "Move to {column}",
+    "created_success": "Task {key} created",
+    "updated_success": "Task {key} updated",
+    "deleted_success": "Task {key} deleted",
+    "empty": "No tasks match your filters"
+  },
+  "sprints": {
+    "active_sprint": "Active sprint",
+    "backlog": "Backlog",
+    "start_sprint": "Start sprint",
+    "complete_sprint": "Complete sprint",
+    "sprint_name": "Sprint {number}",
+    "velocity": "Velocity",
+    "points": "{count} pts"
+  },
+  "comments": {
+    "title": "Comments",
+    "add_comment": "Add a comment",
+    "placeholder": "Type a comment and press Enter",
+    "edited": "edited",
+    "deleted": "Comment deleted",
+    "mention_hint": "Type @ to mention someone"
+  },
+  "files": {
+    "upload": "Upload files",
+    "attach": "Attach",
+    "dropzone": "Drag and drop files here or click to browse",
+    "too_large": "File is larger than {size}",
+    "unsupported": "Unsupported file type"
+  },
+  "search": {
+    "placeholder": "Search tasks, projects, people",
+    "no_results": "No results for {query}",
+    "results_count": "{count} results"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "mark_all_read": "Mark all as read",
+    "empty": "You have no notifications",
+    "task_assigned": "{actor} assigned {task} to you",
+    "comment_added": "{actor} commented on {task}",
+    "status_changed": "{actor} moved {task} to {status}"
+  },
+  "billing": {
+    "plan": "Plan",
+    "current_plan": "Current plan",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "manage_payment": "Manage payment method",
+    "trial_days_left": "{count} days left in trial",
+    "invoices": "Invoices",
+    "next_billing_date": "Next billing date: {date}",
+    "seats_used": "{used} of {total} seats used"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "network": "Network error. Check your connection",
+    "forbidden": "You do not have permission to perform this action",
+    "not_found": "We could not find what you were looking for",
+    "rate_limited": "Too many requests. Try again later"
+  },
+  "validation": {
+    "required": "This field is required",
+    "min_length": "Must be at least {min} characters",
+    "max_length": "Must be at most {max} characters",
+    "invalid_email": "Enter a valid email address",
+    "password_mismatch": "Passwords do not match"
+  },
+  "placeholders": {
+    "project_name": "e.g. Website Redesign",
+    "task_title": "Write a short, clear title",
+    "task_description": "Describe the work and acceptance criteria",
+    "invite_emails": "Enter emails separated by commas"
+  },
+  "tooltips": {
+    "drag_to_reorder": "Drag to reorder",
+    "double_click_to_edit": "Double click to edit",
+    "press_slash_to_search": "Press / to search",
+    "markdown_supported": "Markdown is supported"
+  },
+  "labels": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical",
+    "open": "Open",
+    "in_progress": "In progress",
+    "done": "Done",
+    "blocked": "Blocked"
+  },
+  "dates": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "this_week": "This week",
+    "next_week": "Next week",
+    "last_week": "Last week"
+  },
+  "a11y": {
+    "skip_to_content": "Skip to content",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "expand": "Expand section",
+    "collapse": "Collapse section"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "showing": "Showing {from} to {to} of {total}"
+  },
+  "empty_states": {
+    "search": "No items match your search",
+    "inbox": "Nothing here yet",
+    "reports": "Reports will appear once you have activity"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "retry": "Retry"
+  },
+  "integrations": {
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "jira": "Connect Jira",
+    "github": "Connect GitHub",
+    "slack": "Connect Slack",
+    "webhooks": "Manage webhooks"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "timezone": "Time zone",
+    "language": "Language",
+    "api_tokens": "API tokens",
+    "generate_token": "Generate token"
+  },
+  "settings": {
+    "general": "General",
+    "notifications": "Notifications",
+    "appearance": "Appearance",
+    "privacy": "Privacy",
+    "danger_zone": "Danger zone",
+    "delete_account": "Delete account"
+  },
+  "legal": {
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "copyright": "Copyright {year} TaskForge Inc."
+  }
+}
