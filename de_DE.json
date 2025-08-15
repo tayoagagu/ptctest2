@@ -1,0 +1,223 @@
+{
+  "app": {
+    "company_name": "TaskForge Inc.",
+    "product_name": "TaskForge",
+    "tagline": "Planen, verfolgen und liefern Sie Arbeitsabläufe",
+    "version": "1.0.0"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "projects": "Projekte",
+    "my_work": "Meine Arbeit",
+    "team": "Team",
+    "reports": "Berichte",
+    "settings": "Einstellungen",
+    "billing": "Abrechnung",
+    "help": "Hilfe"
+  },
+  "auth": {
+    "login_title": "Bei TaskForge anmelden",
+    "signup_title": "Erstellen Sie Ihr TaskForge-Konto",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirm_password": "Passwort bestätigen",
+    "remember_me": "Angemeldet bleiben",
+    "forgot_password": "Passwort vergessen?",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "signup": "Registrieren",
+    "oauth_with": "Fortfahren mit {provider}",
+    "sso_hint": "Ihr Unternehmen unterstützt möglicherweise Single Sign-On"
+  },
+  "dashboard": {
+    "welcome": "Willkommen zurück, {name}",
+    "inbox_zero": "Sie sind auf dem aktuellen Stand",
+    "view_all": "Alle anzeigen",
+    "due_today": "Heute fällig",
+    "overdue": "Überfällig",
+    "recent_activity": "Neueste Aktivitäten"
+  },
+  "projects": {
+    "title": "Projekte",
+    "create": "Neues Projekt",
+    "edit": "Projekt bearbeiten",
+    "archive": "Projekt archivieren",
+    "delete": "Projekt löschen",
+    "project_name": "Projektname",
+    "project_key": "Projektschlüssel",
+    "owner": "Eigentümer",
+    "members": "{count} Mitglieder",
+    "no_projects": "Noch keine Projekte vorhanden",
+    "create_first": "Erstellen Sie Ihr erstes Projekt, um zu beginnen",
+    "import": "Import von {source}"
+  },
+  "tasks": {
+    "title": "Aufgaben",
+    "new_task": "Neue Aufgabe",
+    "assignee": "Bearbeiter",
+    "reporter": "Ersteller",
+    "status": "Status",
+    "priority": "Priorität",
+    "estimate": "Aufwandsschätzung",
+    "due_date": "Fälligkeitsdatum",
+    "labels": "Bezeichnungen",
+    "subtasks": "Unteraufgaben",
+    "add_subtask": "Unteraufgabe hinzufügen",
+    "start_task": "Beginnen",
+    "complete_task": "Abschließen",
+    "reopen_task": "Wieder öffnen",
+    "move_task": "Verschieben nach {column}",
+    "created_success": "Aufgabe {key} erstellt",
+    "updated_success": "Aufgabe {key} aktualisiert",
+    "deleted_success": "Aufgabe {key} gelöscht",
+    "empty": "Keine Aufgaben entsprechen Ihren Filtern"
+  },
+  "sprints": {
+    "active_sprint": "Aktiver Sprint",
+    "backlog": "Backlog",
+    "start_sprint": "Sprint starten",
+    "complete_sprint": "Sprint abschließen",
+    "sprint_name": "Sprint {number}",
+    "velocity": "Geschwindigkeit",
+    "points": "{count} Punkte"
+  },
+  "comments": {
+    "title": "Kommentare",
+    "add_comment": "Kommentar hinzufügen",
+    "placeholder": "Geben Sie einen Kommentar ein und drücken Sie die Eingabetaste",
+    "edited": "bearbeitet",
+    "deleted": "Kommentar gelöscht",
+    "mention_hint": "Geben Sie @ ein, um jemanden zu erwähnen"
+  },
+  "files": {
+    "upload": "Dateien hochladen",
+    "attach": "Anhängen",
+    "dropzone": "Ziehen Sie Dateien hierher oder klicken Sie zum Durchsuchen",
+    "too_large": "Datei ist größer als {size}",
+    "unsupported": "Nicht unterstützter Dateityp"
+  },
+  "search": {
+    "placeholder": "Aufgaben, Projekte, Personen durchsuchen",
+    "no_results": "Keine Ergebnisse für {query}",
+    "results_count": "{count} Ergebnisse"
+  },
+  "notifications": {
+    "title": "Benachrichtigungen",
+    "mark_all_read": "Alle als gelesen markieren",
+    "empty": "Sie haben keine Benachrichtigungen",
+    "task_assigned": "{actor} hat {task} Ihnen zugewiesen",
+    "comment_added": "{actor} hat {task} kommentiert",
+    "status_changed": "{actor} hat {task} nach {status} verschoben"
+  },
+  "billing": {
+    "plan": "Plan",
+    "current_plan": "Aktueller Plan",
+    "upgrade": "Upgraden",
+    "downgrade": "Downgraden",
+    "manage_payment": "Zahlungsmethode verwalten",
+    "trial_days_left": "{count} Tage verbleiben in der Testphase",
+    "invoices": "Rechnungen",
+    "next_billing_date": "Nächstes Abrechnungsdatum: {date}",
+    "seats_used": "{used} von {total} Plätzen belegt"
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen",
+    "network": "Netzwerkfehler. Überprüfen Sie Ihre Verbindung",
+    "forbidden": "Sie haben keine Berechtigung, diese Aktion durchzuführen",
+    "not_found": "Wir konnten nicht finden, wonach Sie gesucht haben",
+    "rate_limited": "Zu viele Anfragen. Versuchen Sie es später erneut"
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "min_length": "Muss mindestens {min} Zeichen enthalten",
+    "max_length": "Darf höchstens {max} Zeichen enthalten",
+    "invalid_email": "Geben Sie eine gültige E-Mail-Adresse ein",
+    "password_mismatch": "Passwörter stimmen nicht überein"
+  },
+  "placeholders": {
+    "project_name": "z.B. Website-Neugestaltung",
+    "task_title": "Verfassen Sie einen kurzen, präzisen Titel",
+    "task_description": "Beschreiben Sie die Arbeit und die Akzeptanzkriterien",
+    "invite_emails": "Geben Sie E-Mail-Adressen durch Kommas getrennt ein"
+  },
+  "tooltips": {
+    "drag_to_reorder": "Ziehen zum Neuordnen",
+    "double_click_to_edit": "Doppelklicken zum Bearbeiten",
+    "press_slash_to_search": "Drücken Sie / zum Suchen",
+    "markdown_supported": "Markdown wird unterstützt"
+  },
+  "labels": {
+    "low": "Niedrig",
+    "medium": "Mittel",
+    "high": "Hoch",
+    "critical": "Kritisch",
+    "open": "Offen",
+    "in_progress": "In Bearbeitung",
+    "done": "Erledigt",
+    "blocked": "Blockiert"
+  },
+  "dates": {
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "tomorrow": "Morgen",
+    "this_week": "Diese Woche",
+    "next_week": "Nächste Woche",
+    "last_week": "Letzte Woche"
+  },
+  "a11y": {
+    "skip_to_content": "Zum Inhalt springen",
+    "open_menu": "Menü öffnen",
+    "close_menu": "Menü schließen",
+    "expand": "Bereich erweitern",
+    "collapse": "Bereich einklappen"
+  },
+  "pagination": {
+    "prev": "Zurück",
+    "next": "Weiter",
+    "showing": "Anzeige von {from} bis {to} von {total}"
+  },
+  "empty_states": {
+    "search": "Keine Elemente entsprechen Ihrer Suche",
+    "inbox": "Noch nichts vorhanden",
+    "reports": "Berichte werden angezeigt, sobald Sie Aktivitäten haben"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "update": "Aktualisieren",
+    "retry": "Wiederholen"
+  },
+  "integrations": {
+    "connect": "Verbinden",
+    "disconnect": "Trennen",
+    "jira": "Jira verbinden",
+    "github": "GitHub verbinden",
+    "slack": "Slack verbinden",
+    "webhooks": "Webhooks verwalten"
+  },
+  "profile": {
+    "title": "Profil",
+    "name": "Name",
+    "timezone": "Zeitzone",
+    "language": "Sprache",
+    "api_tokens": "API-Tokens",
+    "generate_token": "Token generieren"
+  },
+  "settings": {
+    "general": "Allgemein",
+    "notifications": "Benachrichtigungen",
+    "appearance": "Erscheinungsbild",
+    "privacy": "Datenschutz",
+    "danger_zone": "Gefahrenzone",
+    "delete_account": "Konto löschen"
+  },
+  "legal": {
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "cookie": "Cookie-Richtlinie",
+    "copyright": "Urheberrecht {year} TaskForge Inc."
+  }
+}
